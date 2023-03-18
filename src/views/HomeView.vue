@@ -1,6 +1,7 @@
 <template>
-  <div class="home">
     <h1>Welcome Faith Jubilee</h1>
+
+  <div class="home">
 
     <div class="descriptions">
       <div :key="users.id">
@@ -10,7 +11,7 @@
         <p class="bio">{{ users.bio }}</p>
       </div>
       <div class="get-repos">
-        <router-link to="/repos">Get Repos</router-link>
+        <router-link to="/repo">Get Repos</router-link>
       </div>
     </div>
 
@@ -35,3 +36,6 @@ export default {
   },
 };
 </script>
+
+<style>
+</style>
