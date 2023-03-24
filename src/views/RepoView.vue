@@ -1,8 +1,8 @@
 <template>
   <div class="repos">
     <h3>Repositories</h3>
-    <div v-for="repo in users" :key="repo.id" class="repos">
-      <p>{{ repo.name }}</p>
+    <div v-for="repo in users" :key="repo.id">
+      <p class="repo-name">{{ repo.name }}</p>
     </div>
   </div>
 </template>
@@ -25,3 +25,14 @@ export default {
   },
 };
 </script>
+
+<style>
+  .repos {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .repo-name {
+    color: green;
+  }
+</style>

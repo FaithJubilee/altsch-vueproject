@@ -38,4 +38,28 @@ export default {
 </script>
 
 <style>
+h1 {
+  text-align: center;
+}
+  .home {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+  .get-repos {
+    margin: 2rem 0;
+  }
+  .get-repos a{
+    border: 2px solid green;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+    background-color: green;
+  }
+  .get-repos a:hover {
+    background-color: #fff;
+    color: green;
+    
+  }
 </style>
