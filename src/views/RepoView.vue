@@ -18,7 +18,7 @@ export default {
   },
 
   mounted() {
-    axios.get(`https://api.github.com/users/jahseed89/repos`).then((resp) => {
+    axios.get(`https://api.github.com/users/FaithJubilee/repos`).then((resp) => {
       this.users = resp.data;
       console.warn(this.users);
     });
